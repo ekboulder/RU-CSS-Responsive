@@ -1,0 +1,70 @@
+/*<!---Main.css---!>*/
+.page {
+	max-width: 960px;
+	padding: 20px;
+	margin: auto;
+}
+
+.topmenu { 
+	width: 100%;
+	display: inline block;
+	
+}
+
+.topmenu ol {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	text-align: center;
+	background-color: orange;
+}
+.topmenu li {
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	/*color: white;*/
+	text-decoration: none;
+	list-style: none;
+	background-color: orange;
+	line-height: 50px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	color: white;
+}
+
+.topmenu li:hover {
+	color: blue;
+}
+
+.picture {
+	float: left;
+	margin-right: 10px;
+	border: solid 1px;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.galleryimg {
+	width: 20%;
+	margin: 10px;
+}
+
+@media screen and (max-width: 531px) {
+
+.topmenu li {
+	display: block;
+	width: 100%;
+}
+.galleryimg {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 220px;
+}
+
+
+}
